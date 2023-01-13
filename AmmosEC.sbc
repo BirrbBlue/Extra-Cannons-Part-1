@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Ammos>
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>AttackCannonShell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>500</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>1400</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>30000</BackkickForce>
+                <PhysicalMaterial>MediumShell</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>0.6</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>200</MissileMass>
+                <MissileExplosionRadius>2</MissileExplosionRadius>
+                <MissileModelName>Models\Weapons\AttackShell.mwm</MissileModelName>
+                <MissileAcceleration>0</MissileAcceleration>
+                <MissileInitialSpeed>500</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileExplosionDamage>0</MissileExplosionDamage>
+                <MissileHealthPool>3500</MissileHealthPool>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+                <MissileGravityEnabled>true</MissileGravityEnabled>
+            </MissileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>HeavyAutocannonShell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>300</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>700</MaxTrajectory>
+                <BackkickForce>1150</BackkickForce>
+                <PhysicalMaterial>GunAutocannonBullet</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>0.9</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <ProjectileProperties>
+                <ProjectileTrailScale>0.5</ProjectileTrailScale>
+                <ProjectileHitImpulse>3</ProjectileHitImpulse>
+                <ProjectileMassDamage>700</ProjectileMassDamage>
+                <ProjectileHealthDamage>90</ProjectileHealthDamage>
+                <HeadShot>true</HeadShot>
+            </ProjectileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>HyperVelocityShell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>900</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>2000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>30000</BackkickForce>
+                <PhysicalMaterial>MediumShell</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>0</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>300</MissileMass>
+                <MissileExplosionRadius>0</MissileExplosionRadius>
+                <MissileModelName>Models\Weapons\HyperVelocityShell.mwm</MissileModelName>
+                <MissileAcceleration>0</MissileAcceleration>
+                <MissileInitialSpeed>900</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileExplosionDamage>0</MissileExplosionDamage>
+                <MissileHealthPool>4500</MissileHealthPool>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+                <MissileGravityEnabled>true</MissileGravityEnabled>
+            </MissileProperties>
+        </Ammo>
+
+    </Ammos>
+</Definitions>
