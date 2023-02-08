@@ -1,0 +1,7 @@
+Copyright 2023 Birrb
+
+Permission is hereby granted, free of charge, to any person obtaining copy of this "Software" and associated documentation files (the "Extra Cannons Part 1"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, publish, distribute, sublicense, and to permit the persons to whom the Sotware is furnished to do so subject to the following conditions:
+
+That the Software is used exclusively for the game Space Engineers created by Keen Software House for non-commercial purposes. This software is used exclusively to interface with the Keen Software House distributions. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
